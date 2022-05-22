@@ -2,6 +2,8 @@
 #include <locale.h>
 
 //@Douglas Andrade Severa
+//Aluno do Curso Análise e Desenvolvimento de Sistemas 2022
+//Introdução a programação de computadores
 //Atividade 5
 
 int main(){
