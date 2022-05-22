@@ -2,7 +2,12 @@
 #include <locale.h>
 
 //@Douglas Andrade Severa
+//Aluno do Curso Análise e Desenvolvimento de Sistemas 2022
+//Introdução a programação de computadores
 //Atividade 2
+// ler 3 valores reais
+// calcular e exibir a soma, produto e média
+// parar quando um conjunto não entrar com valores crescentes
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float num1, num2, num3, resultado;
@@ -28,7 +33,7 @@ int main(){
 	}
 	
 	
-	while(num1 < num2 && num2 < num3){
+	while((num1 < num2) && (num2 < num3)){
 		
 		printf("\nA soma dos número inseridos são: %0.2f", resultado = num1 + num2 + num3);
 		printf("\nA multiplicação dos número inseridos são: %0.2f", resultado = num1 * num2 * num3);
